@@ -10,18 +10,27 @@ The idea is all playlists can be derived from a user's library. Some of the play
 <br>
 
 *Note:*
-Probably worth mentioning this is my first ever Python project so let's see how it goes...
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<br>
+## Getting Started
 
-## Running locally
-```sh
-pyenv install # or whatever Python version manager you use
-pip install -r requirements.txt
-python .
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-<br>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Docs
 - [Spotify Web API](https://developer.spotify.com/documentation/web-api)
